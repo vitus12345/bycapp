@@ -68,7 +68,8 @@
 
     .first-section-img{
         margin-top: 80px;
-        margin-left: 50px;
+        text-align: center;
+
     }
     .man-black{
         margin-top: 125px;
@@ -168,6 +169,7 @@
         .view-btn{
             width: 100%;
         }
+        
     }
 }
 
@@ -224,9 +226,17 @@
         }
     }
 
-    @media screen and (min-width: 650px) and (max-width: 990px){
+    @media screen and (min-width: 1000px) and (max-width: 1050px){
         .explore-btn{
-            margin-left: -15px;
+        
+        }
+
+        .third-section-text{
+            padding: 30px 20px !important;
+        }
+
+        br{
+            display: none;
         }
     }
     
@@ -295,26 +305,46 @@
     }
     .fifth-section-first-text{
         display: flex;
-        gap: 40px;
-        margin-left: 30%;
+        gap: 15px;
+        justify-content: center;
         margin-top: 50px;
     }
 
-    .women{
-        border-bottom: 1px solid rgb(251, 246, 246);
-        padding-bottom: 15px;
+    .women , .kids{
+        border: 1px solid rgb(251, 246, 246);
+        padding: 10px 20px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .women:hover{
+        background-color: #D7000F;
+        color: #fff;
+    }
+
+    .kids:hover{
+        background-color: #D7000F;
+        color: #fff;
     }
 
     .men{
-        border-bottom: 1px solid #212121;
         color: #828282;
-        padding-bottom: 15px;
+        border: 1px solid rgb(251, 246, 246);
+        padding: 10px 20px;
+        font-size: 15px;
+        font-weight: 400;
+        border-bottom: 1px solid #212121;
+    }
+
+    .men:hover{
+        background-color: #D7000F;
+        color: #fff;
     }
 
     .fifth-section-second-text{
         display: flex;
-        gap: 10px;
-        margin-left: 25%;
+        gap: 15px;
+        justify-content: center;
         margin-top: 30px;
     }
 
@@ -325,7 +355,22 @@
         font-weight: 400;
     }
 
-    .pants{
+    .shirt:hover{
+        background-color: #D7000F;
+        color: #fff;
+    }
+
+    .singlet:hover{
+        background-color: #D7000F;
+        color: #fff;
+    }
+
+    .pants:hover{
+        background-color: #D7000F;
+        color: #fff;
+    }
+
+    .boxers:hover{
         background-color: #D7000F;
         color: #fff;
     }
@@ -352,6 +397,130 @@
 
 // styling the sixth section
 
+.sixth-section{
+
+    .sixth-group-img{
+        margin-top: 100px;
+    }
+
+    .sixth-sec{
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-arrow{
+        margin-left: -7%;
+        margin-bottom: -40%;
+    }
+    .right-arrow{
+        margin-left: 100%;
+        margin-top: -50%;
+    }
+
+   
+    .black-pant, .white-boxer{
+        margin-left: 20px;
+    }
+
+    span{
+        font-weight: 700;
+        font-size: 20px;
+        
+    }
+
+    .sixth-sec-text{
+        margin-top: 40px;
+    }
+
+    .sixth-section-btn{
+        text-align: center;
+    }
+    .view-all{
+        border: 1px solid black;
+        outline: none;
+        padding: 9px 60px;
+        background-color: #fff;
+        margin: 80px 0;
+        font-weight: 700;
+    }
+
+    @media screen and (max-width: 992px){
+        .sixth-sec{
+            display: block;
+        }
+
+        .right-arrow,.left-arrow{
+            display: none;
+            margin: 0 !important;
+        }
+        .black-pant, .white-boxer{
+            margin-left: 0 !important;
+        }
+        img{
+            width: 100%;
+        }
+
+        .view-all{
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 1000px) and (max-width: 1050px){
+        .right-arrow,.left-arrow{
+            display: none;
+            margin: 0 !important;
+        }
+
+        img{
+            width: 91%;
+        }
+    }
+    @media screen and (min-width: 1100px) and (max-width: 1300px){
+        .left-arrow{
+            margin-left: -7%;
+            margin-bottom: -40%;
+        }
+        .right-arrow{
+            margin-left: 100%;
+            margin-top: -55%;
+        }
+    
+
+    }
+    @media screen and (min-width: 2200px){
+        .left-arrow{
+            margin-left: -4%;
+            margin-bottom: -20%;
+        }
+        .right-arrow{
+            margin-left: 100%;
+            margin-top: -33%;
+        }
+
+        .sixth-sec{
+            justify-content: space-between;
+        }
+    }
+}
+
+
+// styling the seventh section
+
+
+.seventh-section{
+
+    .card-section{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .first-card{
+        width: 50%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .man-woman{
+    }
+}
 
 
 
