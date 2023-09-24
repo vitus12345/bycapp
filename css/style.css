@@ -12,6 +12,10 @@
   margin: 10px 0 0 0;
 }
 
+.navl {
+  background-color: #fff;
+}
+
 .navs {
   display: none;
 }
@@ -19,13 +23,14 @@
 @media screen and (max-width: 992px) {
   .navs {
     display: block;
+    background-color: #fff;
   }
   .navl {
     display: none;
   }
 }
 .first-section .top-text {
-  margin-top: 50px;
+  margin-top: 150px;
   text-align: center;
 }
 .first-section h3 {
