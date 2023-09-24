@@ -220,16 +220,14 @@
             display: none;
         }
 
-        .explore-btn{
-            width: 100%;
+        // .explore-btn{
+        //     width: 100%;
             
-        }
+        // }
     }
 
     @media screen and (min-width: 1000px) and (max-width: 1050px){
-        .explore-btn{
-        
-        }
+       
 
         .third-section-text{
             padding: 30px 20px !important;
@@ -513,15 +511,234 @@
         justify-content: space-between;
     }
 
-    .first-card{
-        width: 50%;
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    .man-woman,.man-sitting,.man-standing{
+        width: 97% ;
+        
+        
     }
 
-    .man-woman{
+    .card-body{
+        width: 97%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+        .lady-on-yellow{
+            padding-bottom: 10px;
+        }
+       .view{
+        margin-left: 40px;
+       }
+
+       .number35{
+        margin-left: 150px;
+        margin-top: -50px;
+       }
+
+       .heart{
+        margin-left: 210px;
+        margin-top: -80px;
+       }
+
+       .number23{
+        margin-left: 240px;
+         margin-top: -63px;
+
+       }
+
+    }
+    .card-first-text{
+        display: flex;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .card-second-text{
+        h4{
+            font-weight: 700;
+            margin-top: 20px;
+        }
+        .second-text-p{
+            font-size: 15px;
+            font-weight: 500;
+            margin-top: 30px;
+        }
+
+    }
+ 
+    .read-more{
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    .read-more-bnt{
+        border: 1px solid black;
+        outline: none;
+        background-color: #fff;
+        padding: 10px 30px;
+        font-weight: 700
+    }
+
+
+    .view-all{
+        text-align: center;
+        margin: 80px 0;
+    }
+
+    .view-all-btn{
+        border: 1px solid black;
+        outline: none;
+        padding: 9px 60px;
+        background-color: #fff;
+        font-weight: 700;
+    
+    }
+
+
+    @media screen and (max-width: 992px){
+
+        .card-section{
+            display: block;
+        }
+        .man-woman,.man-sitting,.man-standing{
+            width: 100% ;
+            margin-top: 50px;
+            
+        }
+
+        .card-body{
+            width: 100%;
+        }
+
+        .view-all-btn{
+            width: 100%;
+        }
     }
 }
 
 
+// styling the footer section 
 
+.footer-section{
+    
+     .footer-page{
+         background-color: #212121;
+         color: #fff;
+        padding: 100px 0;
+    }
+
+    h6{
+            font-size: 20px;
+    }
+
+    p{
+            font-size: 14px;
+    }
+
+    .company-contact{
+
+        .form-email{
+            border: 1px solid #fff;
+            margin-top: 30px;
+            padding: 5px 0;
+
+          
+        }
+
+        input{
+            background-color: #212121;
+            border: none;
+            font-size: 10px;
+            padding-left: 20px;
+            outline: none;
+            
+        }
+
+        .arrow{
+            margin-left: 190px;
+        }
+
+        .mail{
+            margin-top: 30px;
+            p{
+                margin-left: 20px;
+                margin-top: -20px;
+            }
+        }
+        .phone{
+            
+            p{
+                margin-left: 20px;
+                margin-top: -20px;
+            }
+        }
+    }
+
+     .social-media{
+        text-align: center;
+        margin-top: 50px;
+
+        p{
+            border-top: 2px solid #fff;
+            margin-top: 20px;
+            padding-top: 30px;
+        }
+      
+     }
+
+     @media screen and (min-width: 2200px){
+
+        
+            .arrow{
+                margin-left: 75% !important;
+            }
+        
+        
+     }
+
+     @media screen and (min-width: 1000px) and (max-width: 1100px){
+        .arrow{
+             margin-left: 100px !important;
+        }
+
+        h6{
+            font-size: 14px;
+        }
+        p{
+            font-size: 10px;
+        }
+     }
+    
+     @media screen and (min-width: 1200px) and (max-width: 1300px){
+        .arrow{
+             margin-left: 160px !important;
+        }
+        h6{
+            font-size: 19px;
+        }
+        p{
+            font-size: 15px;
+        }
+     }
+
+     @media screen and (min-width: 650px) and (max-width: 992px){
+        .arrow{
+            margin-left: 80% !important;
+       }
+
+       h6{
+        margin-top: 30px;
+       }
+     }
+
+     @media screen and (max-width: 640px){
+        .arrow{
+            margin-left: 55% !important;
+       }
+
+       h6{
+        margin-top: 30px;
+       }
+
+     }
+}
 
