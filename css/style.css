@@ -424,6 +424,9 @@
   gap: 30px;
   margin-top: 20px;
 }
+.seventh-section .wade {
+  font-weight: 700;
+}
 .seventh-section .card-second-text h4 {
   font-weight: 700;
   margin-top: 20px;
@@ -558,6 +561,123 @@
   }
   .footer-section h6 {
     margin-top: 30px;
+  }
+}
+
+.blog-page h1 {
+  text-align: center;
+  margin: 150px 0;
+  font-weight: 700;
+}
+
+.blog-first-section h5, .blog-second-section h5, .blog-third-section h5 {
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+.blog-first-section .lady-on-yellow, .blog-second-section .lady-on-yellow, .blog-third-section .lady-on-yellow {
+  padding-bottom: 10px;
+  width: 60%;
+}
+.blog-first-section .view, .blog-second-section .view, .blog-third-section .view {
+  margin-left: 40px;
+}
+.blog-first-section .number35, .blog-second-section .number35, .blog-third-section .number35 {
+  margin-left: 150px;
+  margin-top: -50px;
+}
+.blog-first-section .heart, .blog-second-section .heart, .blog-third-section .heart {
+  margin-left: 210px;
+  margin-top: -80px;
+}
+.blog-first-section .number23, .blog-second-section .number23, .blog-third-section .number23 {
+  margin-left: 240px;
+  margin-top: -63px;
+}
+.blog-first-section .card-first-text, .blog-second-section .card-first-text, .blog-third-section .card-first-text {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+.blog-first-section .wade, .blog-second-section .wade, .blog-third-section .wade {
+  font-weight: 700;
+}
+.blog-first-section .read-more, .blog-second-section .read-more, .blog-third-section .read-more {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.blog-first-section .read-more-bnt, .blog-second-section .read-more-bnt, .blog-third-section .read-more-bnt {
+  border: 1px solid black;
+  outline: none;
+  background-color: #fff;
+  padding: 10px 30px;
+  font-weight: 700;
+}
+.blog-first-section .man-woman, .blog-first-section .man-sitting, .blog-second-section .man-woman, .blog-second-section .man-sitting, .blog-third-section .man-woman, .blog-third-section .man-sitting {
+  margin-top: 140px;
+}
+@media screen and (max-width: 992px) {
+  .blog-first-section .man-standing, .blog-second-section .man-standing, .blog-third-section .man-standing {
+    width: 100%;
+  }
+  .blog-first-section .blog-first-text, .blog-second-section .blog-first-text, .blog-third-section .blog-first-text {
+    margin-top: 80px;
+  }
+  .blog-first-section .lady-on-yellow, .blog-second-section .lady-on-yellow, .blog-third-section .lady-on-yellow {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+  .blog-first-section .man-standing, .blog-second-section .man-standing, .blog-third-section .man-standing {
+    width: 100%;
+    height: 95%;
+  }
+}
+
+.last-section {
+  margin: 50px 0;
+}
+.last-section .arrow {
+  text-align: center;
+}
+.last-section .arrow .left {
+  margin-right: 120px;
+  margin-bottom: -235px;
+}
+.last-section .arrow .right {
+  margin-left: 120px;
+  margin-bottom: -235px;
+}
+.last-section .arrow img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px 30px;
+  border-radius: 3px;
+}
+.last-section .arrow :hover {
+  border: 2px solid goldenrod;
+}
+.last-section .next-prev {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 80px 0;
+}
+.last-section .next-prev p {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 15px 30px;
+  border-radius: 3px;
+}
+.last-section .next-prev :hover {
+  border: 2px solid goldenrod;
+}
+@media screen and (max-width: 500px) {
+  .last-section .arrow {
+    margin-bottom: -80px !important;
+  }
+  .last-section .left {
+    margin-right: 0 !important;
+  }
+  .last-section .right {
+    margin-left: 0 !important;
   }
 }
 
