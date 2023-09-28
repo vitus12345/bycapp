@@ -853,7 +853,7 @@
     
 }
 
-.last-section{
+.last-section, .blog2-last-section{
     margin: 50px 0;
 
     .arrow{
@@ -917,3 +917,145 @@
 }
 
 }
+
+
+
+
+
+// styling the blog2 section--------------------------------------------------------------------------------------------------------------
+
+
+.link-section{
+    margin-top: 100px;
+    a{
+        color: rgba(0, 0, 0, 0.50);
+    }
+    
+}
+
+.how-important{
+
+    h1{
+        text-align: center;
+        margin: 150px 0;      
+        font-weight: 700;
+    }
+
+    img{
+        margin: 60px 0;
+    }
+}
+
+
+.blog2-second-section{
+
+    h1{
+        text-align: center;
+        margin: 100px 0;      
+        font-weight: 700;
+    }
+
+
+    
+    .card-section{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .man-woman,.man-sitting,.man-standing{
+        width: 97% ;
+        
+        
+    }
+
+    .card-body{
+        width: 97%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+        .lady-on-yellow{
+            padding-bottom: 10px;
+        }
+       .view{
+        margin-left: 40px;
+       }
+
+       .number35{
+        margin-left: 150px;
+        margin-top: -50px;
+       }
+
+       .heart{
+        margin-left: 210px;
+        margin-top: -80px;
+       }
+
+       .number23{
+        margin-left: 240px;
+         margin-top: -63px;
+
+       }
+    }
+
+    .card-first-text{
+        display: flex;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .wade{
+        font-weight: 700;
+    }
+
+    .card-second-text{
+        h4{
+            font-weight: 700;
+            margin-top: 20px;
+        }
+        .second-text-p{
+            font-size: 15px;
+            font-weight: 500;
+            margin-top: 30px;
+        }
+
+    }
+ 
+    .read-more{
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    .read-more-bnt{
+        border: 1px solid black;
+        outline: none;
+        background-color: #fff;
+        padding: 10px 30px;
+        font-weight: 700
+    }
+
+    @media screen and (max-width: 992px){
+
+        .card-section{
+            display: block;
+        }
+        .man-woman,.man-sitting,.man-standing{
+            width: 100% ;
+            margin-top: 50px;
+            
+        }
+
+        .card-body{
+            width: 100%;
+        }
+
+        
+    }
+
+
+}
+
+
+
+
+
+
