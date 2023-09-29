@@ -772,4 +772,88 @@
   }
 }
 
+.about-page {
+  text-align: center;
+}
+.about-page h1 {
+  font-weight: 700;
+  margin: 100px 0;
+}
+
+.about-page-section-one h5 {
+  margin-top: 90px;
+  font-weight: 700;
+}
+.about-page-section-one p {
+  margin-top: 20px;
+  font-size: 25px;
+}
+.about-page-section-one h1 {
+  margin: 100px 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.about-award-section img {
+  margin-bottom: 30px;
+}
+.about-award-section p {
+  margin-bottom: 30px;
+}
+.about-award-section .about-award :hover {
+  background: rgba(189, 58, 58, 0.04);
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.06);
+}
+.about-award-section .award {
+  background: #FBFBFB;
+  padding: 40px 30px 40px 20px;
+}
+.about-award-section .awd {
+  padding-bottom: 60px;
+}
+
+.about-fifth-section .fifth-page {
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  margin: 120px 0;
+}
+.about-fifth-section .about-fifth-section-first-text {
+  border-bottom: 2px solid #F1EEEE;
+  margin-bottom: 30px;
+}
+.about-fifth-section .about-fifth-section-first-text h5 {
+  margin-top: 40px;
+  font-weight: 700;
+}
+.about-fifth-section .about-fifth-section-first-text .see-all {
+  margin-top: -35px;
+  margin-left: 92%;
+  color: #D7000F;
+}
+.about-fifth-section .about-fifth-section-first-text .see-all img {
+  margin-left: 60px;
+  margin-top: -83px;
+}
+.about-fifth-section .card-section {
+  display: flex;
+}
+.about-fifth-section .first-card .chinese-lady {
+  width: 93%;
+}
+.about-fifth-section .take-action-btn {
+  display: flex;
+  gap: 10px;
+}
+.about-fifth-section .take-action-btn p {
+  margin-top: 10px;
+}
+.about-fifth-section .take-action-btn img {
+  margin-top: 10px;
+}
+.about-fifth-section .take-action-btn button {
+  display: flex;
+  gap: 5px;
+  outline: none;
+}
+
 /*# sourceMappingURL=style.css.map */
