@@ -413,11 +413,11 @@
 
     .left-arrow{
         margin-left: -7%;
-        margin-bottom: -40%;
+        margin-bottom: -35%;
     }
     .right-arrow{
         margin-left: 100%;
-        margin-top: -50%;
+        margin-top: -55%;
     }
 
    
@@ -1103,11 +1103,20 @@
         margin-bottom: 30px;
     }
 
+    .two-of-one{
+        p{
+            font-size: 14.6px;
+        }
+
+        h5{
+            margin-top: 37px !important;
+        }
+    }
+
     .about-award{
         
         :hover{
-            background: rgba(189, 58, 58, 0.04);
-            box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.06);
+             background: rgba(189, 58, 58, 0.04);
             
         }
     }
@@ -1116,12 +1125,21 @@
     .award{
         background: #FBFBFB;
         padding: 40px 30px 40px 20px;
-        
+        box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.06);
+
 
        
     }
     .awd{
         padding-bottom: 60px;
+    }
+
+    @media screen and (max-width: 992px){
+
+        .award{
+            width: 100% !important;
+            margin-bottom: 30px;
+        }
     }
 }
 
@@ -1165,40 +1183,123 @@
 
     .card-section{
         display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        
     }
 
     .first-card{
 
+       
+
+
+        h6{
+            margin-top: 20px;
+            font-weight: 700;
+        }
+
+        .model{
+            font-weight: 500;
+        }
+
+        .price{
+            font-weight: 600;
+        }
+
+        .description{
+            color: #787885;
+            font-size: 12px;
+        }
+
+
+        .rateing{
+            color: #5E6366;
+            margin-left: 100px;
+            margin-top: -22px;
+            font-weight: 600;
+        }
     
         
         .chinese-lady{
             width: 93%;
+            border-radius: 5px 5px 0 0;
         }
 
     }
 
     .take-action-btn{
-        display: flex;
-        gap: 10px;
+        display:flex;
+        gap: 5px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        // display: none;
+
+       &:hover{
+    
+       }
+
+        
         p{
-            margin-top: 10px;
+            margin-bottom: 0;
+        
         }
 
         img{
-            margin-top: 10px;
+            width: 20%;
+            margin-top: 4px;
         }
 
         button{
             display: flex;
             gap: 5px;
-            
+            padding: 3px 3px;
             outline: none;
+            border-radius: 5px;
+            border: 1px solid #BD3A3A;
+            
+        }
+
+        .wishlist-btn{
+            background-color: #fff;
+            color: #BD3A3A;
         }
 
 
+        .buy-now-btn{
+            background-color: #BD3A3A;
+            color: #fff;
+        }
     }
 
 
+
+    @media screen and (max-width: 992px){
+
+        .card-section{
+            display: block;
+           ;
+    
+            
+        }
+
+        .first-card{
+            margin-bottom: 50px !important;
+        }
+
+        .chinese-lady{
+            width: 100% !important;
+            
+        }
+
+        .see-all{
+            margin-top: 0px !important;
+            margin-left: 0% !important;
+            
+            
+        }
+
+    }
 
 
 }

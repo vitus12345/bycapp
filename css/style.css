@@ -312,11 +312,11 @@
 }
 .sixth-section .left-arrow {
   margin-left: -7%;
-  margin-bottom: -40%;
+  margin-bottom: -35%;
 }
 .sixth-section .right-arrow {
   margin-left: 100%;
-  margin-top: -50%;
+  margin-top: -55%;
 }
 .sixth-section .black-pant, .sixth-section .white-boxer {
   margin-left: 20px;
@@ -800,16 +800,28 @@
 .about-award-section p {
   margin-bottom: 30px;
 }
+.about-award-section .two-of-one p {
+  font-size: 14.6px;
+}
+.about-award-section .two-of-one h5 {
+  margin-top: 37px !important;
+}
 .about-award-section .about-award :hover {
   background: rgba(189, 58, 58, 0.04);
-  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.06);
 }
 .about-award-section .award {
   background: #FBFBFB;
   padding: 40px 30px 40px 20px;
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.06);
 }
 .about-award-section .awd {
   padding-bottom: 60px;
+}
+@media screen and (max-width: 992px) {
+  .about-award-section .award {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
 }
 
 .about-fifth-section .fifth-page {
@@ -836,24 +848,76 @@
 }
 .about-fifth-section .card-section {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.about-fifth-section .first-card h6 {
+  margin-top: 20px;
+  font-weight: 700;
+}
+.about-fifth-section .first-card .model {
+  font-weight: 500;
+}
+.about-fifth-section .first-card .price {
+  font-weight: 600;
+}
+.about-fifth-section .first-card .description {
+  color: #787885;
+  font-size: 12px;
+}
+.about-fifth-section .first-card .rateing {
+  color: #5E6366;
+  margin-left: 100px;
+  margin-top: -22px;
+  font-weight: 600;
 }
 .about-fifth-section .first-card .chinese-lady {
   width: 93%;
+  border-radius: 5px 5px 0 0;
 }
 .about-fifth-section .take-action-btn {
   display: flex;
-  gap: 10px;
+  gap: 5px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 .about-fifth-section .take-action-btn p {
-  margin-top: 10px;
+  margin-bottom: 0;
 }
 .about-fifth-section .take-action-btn img {
-  margin-top: 10px;
+  width: 20%;
+  margin-top: 4px;
 }
 .about-fifth-section .take-action-btn button {
   display: flex;
   gap: 5px;
+  padding: 3px 3px;
   outline: none;
+  border-radius: 5px;
+  border: 1px solid #BD3A3A;
+}
+.about-fifth-section .take-action-btn .wishlist-btn {
+  background-color: #fff;
+  color: #BD3A3A;
+}
+.about-fifth-section .take-action-btn .buy-now-btn {
+  background-color: #BD3A3A;
+  color: #fff;
+}
+@media screen and (max-width: 992px) {
+  .about-fifth-section .card-section {
+    display: block;
+  }
+  .about-fifth-section .first-card {
+    margin-bottom: 50px !important;
+  }
+  .about-fifth-section .chinese-lady {
+    width: 100% !important;
+  }
+  .about-fifth-section .see-all {
+    margin-top: 0px !important;
+    margin-left: 0% !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
