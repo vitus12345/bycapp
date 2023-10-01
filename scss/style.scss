@@ -1063,7 +1063,7 @@
 // styling the about section--------------------------------------------------------------------------------------------------------------
 
 
-.about-page{
+.about-page, .contact-page{
     text-align: center;
     h1{
         font-weight: 700;
@@ -1145,9 +1145,6 @@
 
 
 
-
-
-
  .about-fifth-section{
 
     .fifth-page{
@@ -1191,7 +1188,11 @@
 
     .first-card{
 
-       
+        &:hover{
+            .take-action-btn{
+                display: flex !important;
+            }
+        }
 
 
         h6{
@@ -1230,14 +1231,11 @@
 
     .take-action-btn{
         display:flex;
-        gap: 5px;
-        margin-bottom: 30px;
+        gap: 10px;
         margin-top: 20px;
-        // display: none;
+         display: none;
 
-       &:hover{
-    
-       }
+      
 
         
         p{
@@ -1253,10 +1251,11 @@
         button{
             display: flex;
             gap: 5px;
-            padding: 3px 3px;
+            padding: 3px 5px;
             outline: none;
             border-radius: 5px;
             border: 1px solid #BD3A3A;
+           
             
         }
 
@@ -1270,9 +1269,11 @@
             background-color: #BD3A3A;
             color: #fff;
         }
+       
+    
+       
     }
-
-
+   
 
     @media screen and (max-width: 992px){
 
@@ -1303,6 +1304,105 @@
 
 
 }
+
+
+
+
+
+// styling the contact section--------------------------------------------------------------------------------------------------------------
+
+
+.contact-section{
+
+
+    .ways-to-contact{
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 0;
+        padding: 50px 30px;
+    }
+    
+    .location{
+        display: flex;
+        gap: 20px;
+
+        h5{
+            font-weight: 700;
+            font-size: 15px;
+            margin-bottom: 0px !important;
+            
+
+        }
+
+        p{
+            font-size: 14px;
+            font-weight: 400;
+        }
+       
+
+        
+
+       
+       
+    }
+
+    span{
+        display: block;
+    }
+
+    @media screen and (max-width: 992px) {
+        .ways-to-contact{
+            display: block;
+            background-color: #fff !important;
+            margin-top: 0;
+            
+        }
+
+        .location{
+            margin-top: 40px;
+        }
+
+    }
+   
+   
+}
+
+
+
+.contact-section-two{
+    h1{
+        font-weight: 700;
+        margin: 50px 0;
+    }
+
+    p{
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+
+    #tel,#email,#note{
+        border: 1px solid #BD3A3A;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .submit{
+        margin-top: 50px;
+        border: 1px solid #BD3A3A;
+        border-radius: 5px;
+        outline: #BD3A3A;
+        background-color: #BD3A3A;
+        color: #fff;
+    }
+
+}
+
+
+
+
+
+// styling the all product section--------------------------------------------------------------------------------------------------------------
+
 
 
 
