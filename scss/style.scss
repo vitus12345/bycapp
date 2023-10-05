@@ -1115,24 +1115,25 @@
 
     .about-award{
         
-        :hover{
-             background: rgba(189, 58, 58, 0.04);
-            
-        }
+       
     }
 
 
     .award{
         background: #FBFBFB;
         padding: 40px 30px 40px 20px;
-        box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.06);
+        
 
 
+       &:hover{
+            background: rgba(189, 58, 58, 0.04);
+            box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.06);
+       }
        
     }
-    .awd{
-        padding-bottom: 60px;
-    }
+    // .awd{
+    //     padding-bottom: 60px;
+    // }
 
     @media screen and (max-width: 992px){
 
@@ -1181,12 +1182,22 @@
     .card-section{
         display: flex;
         justify-content: space-between;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
 
         
     }
 
     .first-card{
+
+        .lady-card{
+            width: 98%;
+            padding-left: 7px;
+            padding-bottom: 20px;
+            box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.06);
+            
+        }
+
+        
 
         &:hover{
             .take-action-btn{
@@ -1403,7 +1414,57 @@
 
 // styling the all product section--------------------------------------------------------------------------------------------------------------
 
+.all-product{
 
+   
+
+
+
+    fieldset{
+        border: 1px solid #5A5B6A;
+        margin-top: 10px;
+        width: 17%;
+        border-radius: 5px;
+        padding-left: 15px;
+        padding-right: 100px;
+        margin-left: 84%;
+    }
+
+    legend{
+        font-size: 12px;
+        padding-left: 10px;
+        font-weight: 700;
+        color: #5A5B6A;
+
+    }
+
+    select{
+        border: none;
+        outline: none;
+        margin-bottom: 10px;
+        color: #5A5B6A;
+        font-weight: 600;
+    }
+
+    .both-view-btn{
+        display: flex;
+        margin-left: 90%;
+    }
+
+    .view-list{
+        border-radius: 2px;
+        background: rgba(189, 58, 58, 0.06);
+        padding: 7px 20px;
+    }
+
+    .view-grid{
+        border-radius: 4px;
+        background: var(--white-100, #FFF);
+        box-shadow: 0px 2px 4px 0px rgba(41, 121, 255, 0.24), 0px 1px 2px 0px rgba(27, 78, 163, 0.24);
+        padding: 7px 20px; 
+    }
+
+}
 
 
 
