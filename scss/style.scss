@@ -861,25 +861,25 @@
         
     
 
-    .left{
-        margin-right: 120px;
+        .left{
+            margin-right: 120px;
+            margin-bottom: -235px;
+        }
+
+        .right{
+        margin-left: 120px;
         margin-bottom: -235px;
-    }
+        }
 
-    .right{
-       margin-left: 120px;
-       margin-bottom: -235px;
-    }
-
-    img{
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        padding: 20px 30px;
-        border-radius: 3px;
-    }
-    :hover{
-        border: 2px solid goldenrod;
-    }
-}
+        img{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 20px 30px;
+            border-radius: 3px;
+        }
+        :hover{
+            border: 2px solid goldenrod;
+        }
+    }   
     
 
     .next-prev{
@@ -1415,8 +1415,22 @@
 // styling the all product section--------------------------------------------------------------------------------------------------------------
 
 .all-product{
+    .all-product-top{
 
-   
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+    }
+
+    .all-product-page{
+        border-bottom:2px solid #F1EEEE;
+        padding-bottom: 10px;
+    }
+
+    h5{
+        margin-top: 60px;
+        font-weight: 700;
+    }
 
 
 
@@ -1427,7 +1441,8 @@
         border-radius: 5px;
         padding-left: 15px;
         padding-right: 100px;
-        margin-left: 84%;
+        margin-left: 81%;
+        margin-top: -58px;
     }
 
     legend{
@@ -1446,9 +1461,13 @@
         font-weight: 600;
     }
 
+    
+
     .both-view-btn{
         display: flex;
-        margin-left: 90%;
+        margin-left: 85%;
+       margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .view-list{
@@ -1464,6 +1483,244 @@
         padding: 7px 20px; 
     }
 
+    .card-section{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+       
+        
+    }
+
+    .first-set{
+        border-top: 2px solid #F1EEEE;
+        padding-top: 20px;
+
+    }
+
+    .first-card{
+
+        .lady-card{
+            width: 98%;
+            padding-left: 7px;
+            padding-bottom: 20px;
+            box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.06);
+            
+        }
+
+        
+
+        &:hover{
+            .take-action-btn{
+                display: flex !important;
+            }
+        }
+
+
+        h6{
+            margin-top: 20px;
+            font-weight: 700;
+        }
+
+        .model{
+            font-weight: 500;
+        }
+
+        .price{
+            font-weight: 600;
+        }
+
+        .description{
+            color: #787885;
+            font-size: 12px;
+        }
+
+
+        .rateing{
+            color: #5E6366;
+            margin-left: 100px;
+            margin-top: -22px;
+            font-weight: 600;
+        }
+    
+        
+        .chinese-lady{
+            width: 93%;
+            border-radius: 5px 5px 0 0;
+        }
+
+    }
+
+    .take-action-btn{
+        display:flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px;
+         display: none;
+
+      
+
+        
+        p{
+            margin-bottom: 0;
+        
+        }
+
+        img{
+            width: 20%;
+            margin-top: 4px;
+        }
+
+        button{
+            display: flex;
+            gap: 5px;
+            padding: 3px 5px;
+            outline: none;
+            border-radius: 5px;
+            border: 1px solid #BD3A3A;
+           
+            
+        }
+
+        .wishlist-btn{
+            background-color: #fff;
+            color: #BD3A3A;
+        }
+
+
+        .buy-now-btn{
+            background-color: #BD3A3A;
+            color: #fff;
+        }
+       
+      
+    
+       
+    }
+
+    @media screen and (max-width: 500px){
+
+        .card-section{
+            display: block;
+           ;
+    
+            
+        }
+
+        .first-card{
+            margin-bottom: 50px !important;
+        }
+
+        .chinese-lady{
+            width: 100% !important;
+            
+        }
+
+        .see-all{
+            margin-top: 0px !important;
+            margin-left: 0% !important;
+            
+            
+        }
+
+        .both-view-btn{
+            margin-left: 62%;
+        }
+
+        fieldset{
+            margin-left: 66%;
+            padding-left: 10px;
+            padding-right: 29px;
+            width: 30% !important;
+        }
+        legend{
+            font-size: 10px;
+        }
+
+        select{
+            font-size: 14px;
+        }
+
+    }
+
+    @media screen and (min-width: 540px) and (max-width: 992px){
+
+        fieldset{
+            margin-left: 83%;
+            padding-left: 3px;
+            padding-right: 35px;
+            width: 14% !important;
+        }
+        .card-section{
+            display: block;
+        }
+
+        .chinese-lady{
+            width: 100% !important;
+            
+        }
+
+        .both-view-btn{
+            margin-left: 82%;
+        }
+
+    }
+
+    @media screen and (min-width: 535px) and (max-width: 600px){
+
+        fieldset{
+            margin-left: 76%;
+            padding-left: 3px;
+            padding-right: 35px;
+            width: 20% !important;
+        }
+        .card-section{
+            display: block;
+        }
+
+        .chinese-lady{
+            width: 100% !important;
+            
+        }
+
+        .both-view-btn{
+            margin-left: 75%;
+        }
+
+    }
+
+    @media screen and (min-width: 2000px){
+
+        fieldset{
+            margin-left: 91%;
+            padding-left: 14px;
+            padding-right: 49px;
+            width: 7% !important;
+        }
+
+        .both-view-btn{
+            margin-left: 92%;
+        }
+
+    }
+
+}
+
+
+
+// styling the comosle section--------------------------------------------------------------------------------------------------------------
+
+
+.comosle{
+    border-bottom:2px solid #F1EEEE;
+    margin-bottom: 25px;
+    .product-found{
+        color: #706D6D;
+        margin-top: 30px;
+    }
+    
+    .product-found-btn{
+        margin-top: -50px !important;
+    }
 }
 
 

@@ -981,6 +981,19 @@
   color: #fff;
 }
 
+.all-product .all-product-top {
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+}
+.all-product .all-product-page {
+  border-bottom: 2px solid #F1EEEE;
+  padding-bottom: 10px;
+}
+.all-product h5 {
+  margin-top: 60px;
+  font-weight: 700;
+}
 .all-product fieldset {
   border: 1px solid #5A5B6A;
   margin-top: 10px;
@@ -988,7 +1001,8 @@
   border-radius: 5px;
   padding-left: 15px;
   padding-right: 100px;
-  margin-left: 84%;
+  margin-left: 81%;
+  margin-top: -58px;
 }
 .all-product legend {
   font-size: 12px;
@@ -1005,7 +1019,9 @@
 }
 .all-product .both-view-btn {
   display: flex;
-  margin-left: 90%;
+  margin-left: 85%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .all-product .view-list {
   border-radius: 2px;
@@ -1017,6 +1033,165 @@
   background: var(--white-100, #FFF);
   box-shadow: 0px 2px 4px 0px rgba(41, 121, 255, 0.24), 0px 1px 2px 0px rgba(27, 78, 163, 0.24);
   padding: 7px 20px;
+}
+.all-product .card-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.all-product .first-set {
+  border-top: 2px solid #F1EEEE;
+  padding-top: 20px;
+}
+.all-product .first-card .lady-card {
+  width: 98%;
+  padding-left: 7px;
+  padding-bottom: 20px;
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.06);
+}
+.all-product .first-card:hover .take-action-btn {
+  display: flex !important;
+}
+.all-product .first-card h6 {
+  margin-top: 20px;
+  font-weight: 700;
+}
+.all-product .first-card .model {
+  font-weight: 500;
+}
+.all-product .first-card .price {
+  font-weight: 600;
+}
+.all-product .first-card .description {
+  color: #787885;
+  font-size: 12px;
+}
+.all-product .first-card .rateing {
+  color: #5E6366;
+  margin-left: 100px;
+  margin-top: -22px;
+  font-weight: 600;
+}
+.all-product .first-card .chinese-lady {
+  width: 93%;
+  border-radius: 5px 5px 0 0;
+}
+.all-product .take-action-btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  display: none;
+}
+.all-product .take-action-btn p {
+  margin-bottom: 0;
+}
+.all-product .take-action-btn img {
+  width: 20%;
+  margin-top: 4px;
+}
+.all-product .take-action-btn button {
+  display: flex;
+  gap: 5px;
+  padding: 3px 5px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #BD3A3A;
+}
+.all-product .take-action-btn .wishlist-btn {
+  background-color: #fff;
+  color: #BD3A3A;
+}
+.all-product .take-action-btn .buy-now-btn {
+  background-color: #BD3A3A;
+  color: #fff;
+}
+@media screen and (max-width: 500px) {
+  .all-product .card-section {
+    display: block;
+  }
+  .all-product .first-card {
+    margin-bottom: 50px !important;
+  }
+  .all-product .chinese-lady {
+    width: 100% !important;
+  }
+  .all-product .see-all {
+    margin-top: 0px !important;
+    margin-left: 0% !important;
+  }
+  .all-product .both-view-btn {
+    margin-left: 62%;
+  }
+  .all-product fieldset {
+    margin-left: 66%;
+    padding-left: 10px;
+    padding-right: 29px;
+    width: 30% !important;
+  }
+  .all-product legend {
+    font-size: 10px;
+  }
+  .all-product select {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 540px) and (max-width: 992px) {
+  .all-product fieldset {
+    margin-left: 83%;
+    padding-left: 3px;
+    padding-right: 35px;
+    width: 14% !important;
+  }
+  .all-product .card-section {
+    display: block;
+  }
+  .all-product .chinese-lady {
+    width: 100% !important;
+  }
+  .all-product .both-view-btn {
+    margin-left: 82%;
+  }
+}
+@media screen and (min-width: 535px) and (max-width: 600px) {
+  .all-product fieldset {
+    margin-left: 76%;
+    padding-left: 3px;
+    padding-right: 35px;
+    width: 20% !important;
+  }
+  .all-product .card-section {
+    display: block;
+  }
+  .all-product .chinese-lady {
+    width: 100% !important;
+  }
+  .all-product .both-view-btn {
+    margin-left: 75%;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .all-product fieldset {
+    margin-left: 91%;
+    padding-left: 14px;
+    padding-right: 49px;
+    width: 7% !important;
+  }
+  .all-product .both-view-btn {
+    margin-left: 92%;
+  }
+}
+
+.comosle {
+  border-bottom: 2px solid #F1EEEE;
+  margin-bottom: 25px;
+}
+.comosle .product-found {
+  color: #706D6D;
+  margin-top: 30px;
+}
+.comosle .product-found-btn {
+  margin-top: -50px !important;
 }
 
 /*# sourceMappingURL=style.css.map */
