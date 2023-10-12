@@ -1306,5 +1306,37 @@
 .cart .arrow:hover {
   border: 1px solid goldenrod;
 }
+.cart h5 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.cart .available {
+  display: flex;
+  justify-content: space-between;
+}
+.cart .available p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.cart .size {
+  display: flex;
+  justify-content: space-between;
+}
+.cart .size .size-tag {
+  display: flex;
+  gap: 10px;
+}
+.cart .size p {
+  background: #FFF;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.11);
+  padding: 10px 20px;
+}
+.cart .size p:hover {
+  border: 1px solid #bd3a3a;
+}
+.cart .quantity {
+  display: flex;
+  gap: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
