@@ -802,7 +802,7 @@
 
     .left {
       margin-right: 120px;
-      margin-bottom: -235px;
+      margin-bottom: -237px;
     }
 
     .right {
@@ -830,12 +830,14 @@
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       padding: 15px 30px;
       border-radius: 3px;
+
+      &:hover {
+        border: 2px solid goldenrod;
+      }
+    }
     }
 
-    &:hover {
-      border: 2px solid goldenrod;
-    }
-  }
+   
 
   @media screen and (max-width: 500px) {
     
@@ -1339,6 +1341,8 @@
     padding-top: 20px;
   }
 
+  
+
   .first-card {
     .lady-card {
       width: 98%;
@@ -1560,6 +1564,14 @@
 
 .cart{
 
+    .cart-body{
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+        padding: 50px 5px 100px 5px;
+        margin-bottom: 50px;
+    }
+
     .big-boxer-img{
         width: 60%;
     }
@@ -1577,6 +1589,13 @@
             border: 1px solid goldenrod;
         }
     }
+
+    .star{
+        border-bottom: 2px solid #F1EEEE;
+        padding-bottom: 20px;
+    }
+
+
     h5{
         font-weight: 700;
         font-size: 25px;
@@ -1618,6 +1637,279 @@
         display: flex;
         gap: 50px;
 
+    }
+
+    .add-sub{
+        // display: flex;
+        gap: 50px;
+        p{
+            margin-top: -45px;
+            font-size: 25px;
+            margin-left: 90px;
+            
+        }
+        img{
+            box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.11);
+            padding: 10px 15px;
+            background-color: #bd3a3a;
+            &:hover{
+                border: 1px solid #bd3a3a;
+            }
+        }
+        .minus{
+            margin-left: 130px;
+            margin-top: -95px;
+            padding: 15px 20px;
+        }
+    }
+
+    .wishlist-btn{
+        display: flex;
+        border: 1px solid #bd3a3a;
+        background-color: #fff;
+        padding: 1px 70px;
+        border-radius: 10px;
+        gap: 20px;
+      
+        p,img{
+            margin-top: 15px;
+            font-weight: 500;
+            color: #bd3a3a;
+        }
+
+    }
+    .buy-now-btn{
+        display: flex;
+        gap: 15px;
+        outline: none;
+        border: 1px solid #bd3a3a;
+        background-color: #bd3a3a;
+        color: #fff;
+        border-radius: 10px;
+        // padding: 0 230px 0 70px;
+        width: 100%;
+
+        p,img{
+            margin-top: 15px;
+            font-weight: 400;
+           
+           
+        }
+        img{
+            margin-left: 50px;
+        }
+    }
+
+    @media screen and (max-width: 992px){
+
+        .all-img{
+            margin-bottom: 30px;
+        }
+        .size{
+            display: block;
+        }
+
+        .quantity{
+            display: block;
+        }
+        .wishlist-btn{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.product-description{
+
+    .product-description-text{
+        border-radius: 10px;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+        padding: 50px 20px 50px 40px;
+        margin-bottom: 50px;
+    }
+
+    h6{
+        font-size: 20px;
+        font-weight: 700;
+        border-bottom: 2px solid #F1EEEE;
+        padding-bottom: 20px;
+        width: 90%;
+        margin-bottom: 20px;
+    
+    }
+
+
+}
+
+
+.customer-review{
+
+    .reviews{
+        border-radius: 10px;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+        padding: 50px 20px 50px 40px;
+        margin-bottom: 50px;
+
+        h5{
+            font-weight: 700;
+            border-bottom: 2px solid #F1EEEE;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+
+        }
+
+    }
+
+    .rating{
+        display: flex;
+        gap: 50px;
+        margin-top: 30px;
+
+        .rating-in-star{
+            background-color: #f8f5f5;
+            padding: 40px 60px 20px 60px;
+            border-radius: 5px;
+            margin-top: 15px;
+
+            p{
+                margin-left: 10px;
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+       
+    }
+
+    .rating-in-num{
+        margin-left: 5px;
+       
+        img{
+            display: block;
+        }
+    }
+
+    .star-house{
+        margin-top: 10px;
+    }
+
+    .star{ 
+        margin-top: 15px;
+    }
+    .paragraph{
+        margin-top: -125px;
+       
+        p{
+            margin-left: 30px;
+            margin-top: -13px;
+            font-weight: 600;  
+    
+        }
+    }
+    
+   
+
+    .rating-stick{
+        margin-top: -143px;
+     
+    }
+
+
+    .rating-line{
+        margin-left: 50px;
+        margin-top: 16px;
+    }
+
+
+
+    .about-fifth-section-first-text {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid #F1EEEE;
+        margin-bottom: 30px;
+
+        .see-all{
+            margin-right: 50px;
+
+            img{
+                margin-left: 60px;
+                margin-top: -85px;
+            }
+            p{
+                color: #bd3a3a;
+            }
+
+        }
+    }
+
+    .the-product{
+        border-bottom:2px solid #F1EEEE ;
+        padding: 30px 0;
+        h6{
+            font-weight: 600;
+        }
+        .good-product{
+            p{
+                margin-left: 100px;
+                margin-top: -22px;
+            }
+        }
+    }
+
+    .look-nice{
+        padding: 30px 0;
+        h6{
+            font-weight: 600;
+        }
+
+        .good-product{
+            p{
+                margin-left: 100px;
+                margin-top: -22px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 600px){
+
+        .rating{
+            display: block;
+            margin-left: 0 !important;
+        }
+        .rating-in-star{
+            width: 70%;
+        }
+
+        .about-fifth-section-first-text{
+            display: block;
+        }
+    }
+    @media screen and (min-width: 650px) and (max-width: 922px){
+        .rating{
+            display: block;
+            margin-left: 0 !important;
+        }
+        .rating-in-star{
+            width: 30%;
+        }
+
+        .about-fifth-section-first-text{
+            display: block;
+        }
+    }
+
+    @media screen and (min-width: 500px) and (max-width: 540px){
+        .rating{
+            display: block;
+            margin-left: 0 !important;
+        }
+        .rating-in-star{
+            width: 50%;
+        }
+
+        .about-fifth-section-first-text{
+            display: block;
+        }
     }
 }
 
