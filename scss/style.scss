@@ -44,10 +44,32 @@
     font-weight: 700;
     margin-top: 30px;
   }
-  #wordChanging {
-    color: #bd3a3a;
-    text-shadow: -1px 1px 2px #828282;
+  .wordChanging {
+    // color: #bd3a3a;
+    // text-shadow: -1px 1px 2px #828282;
+    text-align: left;
+    overflow: hidden;
+    font-size: 35px;
+    font-weight: 700;
   }
+
+  .wrapper{
+    box-sizing: content-box;
+    background-color: #fff;
+    display: flex;
+    height: 60px;
+    border-radius: 8px;
+    justify-content: center;
+    span{
+      display: block;
+      padding-left: 10px;
+      animation: spin-word 6s infinite;
+      color: black;
+      overflow-x: hidden;
+      height: 100%;
+    }
+  }
+
   .first-btn {
     text-align: center;
     margin-top: 30px;
@@ -386,18 +408,48 @@
     justify-content: center;
   }
 
-  .left-arrow {
-    margin-left: -7%;
-    margin-bottom: -35%;
-  }
-  .right-arrow {
-    margin-left: 100%;
-    margin-top: -55%;
+  // .item .black-pant{
+  //   height: -100px !important;
+  // }
+
+
+  .ridealong {
+   position: relative;
+   padding: 0 40px;
   }
 
-  .black-pant,
-  .white-boxer {
-    margin-left: 20px;
+
+  .owl-carousel{
+    padding: 20px !important;
+  }
+  .owl-prev, .owl-next {
+    position: absolute;
+  }
+
+  .owl-prev{
+    left: -8px;
+    top: 160px;
+    font-size: 50px !important;
+    z-index: 100;
+    background: none;
+  }
+
+  .owl-next{
+    right: -8px;
+    top: 160px;
+    font-size: 50px !important;
+  }
+
+  .owl-theme .owl-nav [class*="owl-"]:hover{
+    background: none !important;
+    color: #000 !important;
+  }
+
+  carousel-slides .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 200px !important;
   }
 
   span {
@@ -426,11 +478,7 @@
       display: block;
     }
 
-    .right-arrow,
-    .left-arrow {
-      display: none;
-      margin: 0 !important;
-    }
+   
     .black-pant,
     .white-boxer {
       margin-left: 0 !important;
@@ -444,35 +492,15 @@
     }
   }
   @media screen and (min-width: 1000px) and (max-width: 1050px) {
-    .right-arrow,
-    .left-arrow {
-      display: none;
-      margin: 0 !important;
-    }
+    
 
     img {
       width: 91%;
     }
   }
-  @media screen and (min-width: 1100px) and (max-width: 1300px) {
-    .left-arrow {
-      margin-left: -7%;
-      margin-bottom: -40%;
-    }
-    .right-arrow {
-      margin-left: 100%;
-      margin-top: -55%;
-    }
-  }
+ 
   @media screen and (min-width: 2200px) {
-    .left-arrow {
-      margin-left: -4%;
-      margin-bottom: -20%;
-    }
-    .right-arrow {
-      margin-left: 100%;
-      margin-top: -33%;
-    }
+   
 
     .sixth-sec {
       justify-content: space-between;
@@ -650,6 +678,7 @@
       padding-top: 30px;
     }
   }
+  
 
   @media screen and (min-width: 2200px) {
     .arrow {
@@ -690,6 +719,9 @@
     h6 {
       margin-top: 30px;
     }
+    .all-contact{
+      text-align: center;
+    }
   }
 
   @media screen and (max-width: 640px) {
@@ -700,6 +732,8 @@
     h6 {
       margin-top: 30px;
     }
+  
+
   }
 }
 
@@ -1089,12 +1123,14 @@
   .card-section {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
+    
   }
 
   .first-card {
+   
     .lady-card {
-      width: 98%;
+      width: 100%;
       padding-left: 7px;
       padding-bottom: 20px;
       box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.06);
@@ -1129,10 +1165,11 @@
       margin-left: 100px;
       margin-top: -22px;
       font-weight: 600;
+      margin-bottom: 60px;
     }
 
     .chinese-lady {
-      width: 93%;
+      width: 97%;
       border-radius: 5px 5px 0 0;
     }
   }
@@ -1140,7 +1177,7 @@
   .take-action-btn {
     display: flex;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: -32px;
     display: none;
 
     p {
@@ -1193,6 +1230,9 @@
 }
 
 // styling the contact section--------------------------------------------------------------------------------------------------------------
+
+
+
 
 .contact-section {
   .ways-to-contact {
@@ -1380,6 +1420,7 @@
       margin-left: 100px;
       margin-top: -22px;
       font-weight: 600;
+      margin-bottom: 50px;
     }
 
     .chinese-lady {
@@ -1392,7 +1433,7 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: -32px;
     display: none;
 
     p {
@@ -1424,7 +1465,7 @@
     }
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 530px) {
     .card-section {
       display: block;
     }
@@ -1461,7 +1502,7 @@
     }
   }
 
-  @media screen and (min-width: 540px) and (max-width: 992px) {
+  @media screen and (min-width: 640px) and (max-width: 992px) {
     fieldset {
       margin-left: 83%;
       padding-left: 3px;
@@ -1481,7 +1522,7 @@
     }
   }
 
-  @media screen and (min-width: 535px) and (max-width: 600px) {
+  @media screen and (min-width: 535px) and (max-width: 550px) {
     fieldset {
       margin-left: 76%;
       padding-left: 3px;
@@ -1912,4 +1953,204 @@
         }
     }
 }
+
+
+
+
+// styling the cart1 section--------------------------------------------------------------------------------------------------------------
+
+.cart-item{
+
+    .cart1{
+        margin-top: 150px;
+        border: 2px solid #F1EEEE;
+        border-radius: 10px;
+        padding: 50px 0;
+    }
+
+    .cart-heading{
+        margin-left: 10px;
+        font-weight: 700;
+    }
+
+    .cart-1-men{
+        border-bottom: 2px solid #F1EEEE;
+        padding-bottom: 50px;
+        border-top: 2px solid #F1EEEE;
+        padding-top: 30px;
+        margin-top: 10px;
+    }
+
+    .men-boxers{
+
+        h5{
+            font-weight: 700;
+        }
+        
+        .action-btn{
+            display: flex;
+            gap: 10px;
+        }
+
+        button{
+            background: transparent;
+            border: 1px solid #bd3a3a;
+            display: flex;
+            gap: 5px;
+            border-radius: 5px;
+            width: 100%;
+            margin-top: 30px;
+
+            img{
+                margin-top: 10px;
+                margin-left: 30px;
+            }
+            p{
+                margin-top: 10px;
+            }
+          
+           
+
+        }
+        .wishlist{
+            color: #bd3a3a;
+        }
+        .remove{
+            background-color: #bd3a3a;
+            color: #fff;
+        }
+    }
+
+    .quantity{
+        border-left: 2px solid #F1EEEE;
+        border-right: 2px solid #F1EEEE;
+        
+
+
+        h6{
+            // text-align: center;
+            font-size: 20px;
+            margin-left: 80px;
+        }
+
+    }
+
+    
+    .add-sub{
+        margin-top: 30px;
+        gap: 50px;
+        margin-left: 23px;
+        p{
+            margin-top: -45px;
+            font-size: 25px;
+            margin-left: 90px;
+            
+        }
+        img{
+            box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.11);
+            padding: 10px 15px;
+            background-color: #bd3a3a;
+            &:hover{
+                border: 1px solid #bd3a3a;
+            }
+        }
+        .minus{
+            margin-left: 130px;
+            margin-top: -95px;
+            padding: 15px 20px;
+        }
+    }
+
+    .unit-price{
+        
+        p{
+            font-size: 20px;
+            font-weight: 500;
+            margin-left: 20px;
+        }
+
+        h6{
+            font-size: 25px;
+            font-weight: 700;
+            margin-top: 20px;
+        }
+
+        
+    }
+
+    .cart-total{
+        margin-top: 30px;
+        h5{
+            font-weight: 700;
+        }
+
+        .sub , .total{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .action-btn{
+            display: flex;
+            gap: 10px;
+        }
+
+        button{
+            background: transparent;
+            border: 1px solid #bd3a3a;
+            display: flex;
+            gap: 5px;
+            border-radius: 10px;
+            width: 100%;
+            margin-top: 30px;
+          
+           p{
+            margin-top: 10px;
+            margin-left: 30px;
+           }
+
+        }
+
+        .shopping{
+            color: #bd3a3a;
+        }
+        .checkout{
+            background: #bd3a3a;
+            color: #fff;
+        }
+
+    }
+
+    @media screen and (max-width: 992px){
+        .action-btn{
+            display: block !important;
+        }
+        button{
+            img{
+                margin-left: 50%;
+            }
+        }
+        .quantity{
+            margin-top: 40px;
+           h6{
+            margin-left: 0;
+           }
+
+           .add-sub{
+            margin-left: 0;
+           }
+           
+        }
+
+        .unit-price{
+            p{
+                margin-left: 0;
+            }
+        }
+
+        .men-boxers{
+            margin-top: 30px;
+        }
+    }
+}
+
 

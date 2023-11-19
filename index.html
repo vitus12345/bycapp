@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     
@@ -119,7 +121,16 @@
             <div class="">
                 <div class="top-text">
                 <h3>Your body deserves comfort</h3>
-                <h1>Get the best for <span id="wordChanging">yourself</span> </h1>
+                <div class="wrapper">
+                    <h1>Get the best for  </h1>
+                    <div class="wordChanging">
+                        <span>yourself</span>
+                        <span>Men</span>
+                        <span>Women</span>
+                        <span>Kids</span>
+                    </div>
+                </div>
+                
                 </div>
                 <div class="first-btn">
                     <button class="btn1">Shop Now</button>
@@ -273,9 +284,11 @@
  
 <section class="sixth-section">
     <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        <div class="col-sm-12 col-md-12 col-lg-10 sixth-group-img">
-  
+        <!-- <div class="col-sm-12 col-md-12 col-lg-1"></div> -->
+        <div class="col-sm-12 col-md-12 col-lg-12 sixth-group-img">
+            <div class="ridealong">
+                <div class="row">
+<!--   
             <img src="./assets/Arrow_Left.png" alt="" class="left-arrow">
 
             <div class="sixth-sec">
@@ -301,9 +314,49 @@
 
             <div class="sixth-section-btn">
                 <button class="view-all">View All</button>
+            </div> -->
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./assets/3419d53f-3a46-49f8-bcd5-20e31c881f23.png" alt="" class="bg-light white-pant ">
+                    <p class="sixth-sec-text"> <span>WOWEN PANTS</span>  BYC-501LMS</p>
+                    <p>₦2,800.00</p>
+                </div>
+
+                <div class="item">
+                    <img src="./assets/IMG_6052.png" alt="" class="bg-light black-pant">
+                    <p class="sixth-sec-text"> <span>WOWEN PANTS</span>  BYC-501LMS</p>
+                    <p>₦2,800.00</p>
+                </div>
+                <div class="item">
+                    <img src="./assets/8c3a2315-9157-41a1-a146-d88da2c29ee4.png" alt="" class="bg-light">
+                    <p class="sixth-sec-text"> <span>WOWEN PANTS</span>  BYC-501LMS</p>
+                    <p>₦2,800.00</p>
+                </div>
+                <div class="item">
+                    <img src="./assets/3419d53f-3a46-49f8-bcd5-20e31c881f23.png" alt="" class="bg-light white-pant ">
+                    <p class="sixth-sec-text"> <span>WOWEN PANTS</span>  BYC-501LMS</p>
+                    <p>₦2,800.00</p>
+                </div>
+                <div class="item">
+                    <img src="./assets/8c3a2315-9157-41a1-a146-d88da2c29ee4.png" alt="" class="bg-light">
+                    <p class="sixth-sec-text"> <span>WOWEN PANTS</span>  BYC-501LMS</p>
+                    <p>₦2,800.00</p>
+                </div>
+                <!-- <div class="item"><h4>6</h4></div>
+                <div class="item"><h4>7</h4></div>
+                <div class="item"><h4>8</h4></div>
+                <div class="item"><h4>9</h4></div>
+                <div class="item"><h4>10</h4></div>
+                <div class="item"><h4>11</h4></div>
+                <div class="item"><h4>12</h4></div> -->
             </div>
+
+            </div>
+
+           </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <!-- <div class="col-sm-12 col-md-12 col-lg-1"></div> -->
 
 
     </div>
@@ -438,16 +491,18 @@
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="col-sm-12 col-md-12 col-lg-6 all-contact">
                     <div class="row">
-                        <div class="col-sm-12 col-md-12 col-lg-4">
+                        
+                        <div class="col-sm-12 col-md-4 col-lg-4 text-center ">
                             <h6>Company Info</h6>
                             <p>About Us</p>
                             <p>Affliate</p>
                             <p>Fashion Blogger</p>
                             
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-4">
+                    
+                        <div class="col-sm-12 col-md-4 col-lg-4 text-center">
                             <h6>Help & Support</h6>
                             <p>Shipping Info</p>
                             <p>Refunds</p>
@@ -455,7 +510,7 @@
                             <p>How to Track</p>
                             <p>Size Guides</p>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="col-sm-12 col-md-4 col-lg-4 text-center">
                             <h6>Customer Care</h6>
                             <p>Contact Us</p>
                             <p>Payment Methods</p>
@@ -518,6 +573,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="script.js"></script>
 </body>
 </html>
