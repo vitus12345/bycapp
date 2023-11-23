@@ -2326,3 +2326,99 @@
 
 }
 
+
+
+
+
+
+// styling the login section--------------------------------------------------------------------------------------------------------------
+
+.login{
+margin: 70px 0;
+
+
+  .login-page{
+    margin-top: 50px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    padding: 40px 30px;
+
+    h5{
+      font-weight: 700;
+
+    }
+  }
+
+  .login-main{
+    
+    p{
+      margin-bottom: 0 !important;
+      font-weight: 500;
+      margin-top: 20px;
+    }
+    #text, #email{
+      border: 1px solid #bd3a3a;
+      border-radius: 5px;
+      outline: none;
+    }
+  
+    .login{
+      font-weight: 600;
+      margin-top: 30px;
+      border: 1px solid #bd3a3a;
+      border-radius: 5px;
+      outline: #bd3a3a;
+      background-color: #bd3a3a;
+      color: #fff;
+  
+    }
+
+    .forget-pw{
+      display: flex;
+      justify-content: space-between;
+    }
+    label{
+      margin-top: 20px;
+      margin-left: 20px;
+      font-weight: 500;
+
+    }
+  }
+
+  .create-acc{
+    border-left:2px solid #F1EEEE  ;
+  
+    p{
+      margin-top: 65px;
+      margin-bottom: 199px;
+    }
+
+    .submit{
+      font-weight: 600;
+      border: 1px solid #bd3a3a;
+      border-radius: 5px;
+      outline: #bd3a3a;
+      background-color: #bd3a3a;
+      color: #fff;
+  
+    }
+  }
+
+  @media screen and (max-width: 992px){
+    br{
+      display: none;
+    }
+
+    .forget-pw{
+      display: block !important;
+    }
+    .create-acc{
+      border: none;
+    }
+
+    p{
+      margin-bottom: 50px !important;
+    }
+  }
+}
+

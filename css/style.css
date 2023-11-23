@@ -1850,4 +1850,74 @@
   }
 }
 
+.login {
+  margin: 70px 0;
+}
+.login .login-page {
+  margin-top: 50px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+  padding: 40px 30px;
+}
+.login .login-page h5 {
+  font-weight: 700;
+}
+.login .login-main p {
+  margin-bottom: 0 !important;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.login .login-main #text, .login .login-main #email {
+  border: 1px solid #bd3a3a;
+  border-radius: 5px;
+  outline: none;
+}
+.login .login-main .login {
+  font-weight: 600;
+  margin-top: 30px;
+  border: 1px solid #bd3a3a;
+  border-radius: 5px;
+  outline: #bd3a3a;
+  background-color: #bd3a3a;
+  color: #fff;
+}
+.login .login-main .forget-pw {
+  display: flex;
+  justify-content: space-between;
+}
+.login .login-main label {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.login .create-acc {
+  border-left: 2px solid #F1EEEE;
+}
+.login .create-acc p {
+  margin-top: 65px;
+  margin-bottom: 199px;
+}
+.login .create-acc .submit {
+  font-weight: 600;
+  border: 1px solid #bd3a3a;
+  border-radius: 5px;
+  outline: #bd3a3a;
+  background-color: #bd3a3a;
+  color: #fff;
+}
+@media screen and (max-width: 992px) {
+  .login br {
+    display: none;
+  }
+  .login .forget-pw {
+    display: block !important;
+  }
+  .login .create-acc {
+    border: none;
+  }
+  .login p {
+    margin-bottom: 50px !important;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
