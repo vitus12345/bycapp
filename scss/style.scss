@@ -2154,3 +2154,175 @@
 }
 
 
+
+
+// styling the summary section--------------------------------------------------------------------------------------------------------------
+
+.summary-section{
+
+  .summa-sec{
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.11);
+    margin-top: 150px !important;
+    padding: 30px 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+  .order{
+    font-weight: 700;
+    border-bottom: 2px solid #F1EEEE;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+  }
+
+  .sum-item{
+    display: flex;
+    justify-content: space-between;
+
+    img{
+      width: 80%;
+    }
+    h5{
+      font-weight: 700;
+      margin: 10px 0;
+    }
+    button{
+      outline: none;
+      border: none;
+      background-color: #bd3a3a;
+      color: #fff;
+      border-radius: 10px;
+      padding: 8px 50px;
+
+    }
+  }
+
+
+  .sum-total{
+
+    border-left:2px solid #F1EEEE ;
+    height: 89%;
+    
+
+
+    .sub-total, .total{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .total{
+      border-top: 2px solid #F1EEEE;
+      margin-top: 20px;
+      padding-top: 15px;
+      font-weight: 600;
+    }
+  }
+
+  .summto{
+    border-bottom: 2px solid #F1EEEE ;
+    margin-bottom: 50px !important;
+    padding-bottom: 50px;
+  }
+
+  .shipping{
+    border-bottom: 2px solid #F1EEEE ;
+    margin-bottom: 20px !important;
+    padding-bottom: 10px;
+
+    h5{
+      font-weight: 600;
+    }
+  }
+
+.contact-delivery{
+  p{
+    margin-bottom: 0 !important;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  #text, #tel, #email{
+    border: 1px solid #bd3a3a;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .submit{
+    margin-top: 50px;
+    border: 1px solid #bd3a3a;
+    border-radius: 5px;
+    outline: #bd3a3a;
+    background-color: #bd3a3a;
+    color: #fff;
+
+  }
+}
+
+.payment-sec{
+
+
+  .payment-inpage{
+    background-color: #FFF8F8;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    label{
+      margin-left: 15px;
+    }
+
+    p{
+      font-size: 13px;
+    }
+
+    .pay-inst{
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 10px 20px 2px 20px;
+
+      p{
+        color: #9F9F9F;
+      }
+    }
+
+    .pay-pro{
+      display: flex;
+      margin-bottom: 100px;
+      
+    }
+
+    img{
+      width: 40%;
+    }
+  }
+
+  .submit{
+    border: 1px solid #bd3a3a;
+    border-radius: 5px;
+    outline: #bd3a3a;
+    background-color: #bd3a3a;
+    color: #fff;
+
+  }
+}
+
+@media screen and (max-width: 992px){
+  .pay-pro{
+  display: block !important;
+
+  img{
+    width: 100% !important;
+    margin-top: 20px;
+    margin-left: 0 !important;
+  }
+  }
+
+  .sum-total{
+    margin-top: 80px;
+  }
+
+  .checkout{
+    display: none;
+  }
+}
+
+}
+
